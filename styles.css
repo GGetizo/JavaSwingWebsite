@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4dc; /* Background color for the page */
+    color: #333;
+    margin: 0;
+    padding: 0;
+        transform: scale(1.5); /* Scale up to 150% */
+        transform-origin: top left; /* Ensure scaling starts from the top left corner */
+        width: 66.67%; /* Adjust width to maintain layout */
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    
+}
+
+.header {
+    background-color: #f09494; /* Header color */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.member-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 60px; /* Add space for footer */
+}
+
+.member-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; /* Space between rows */
+}
+
+.member-row.second {
+    margin-top: 60px; /* Adjust the margin as needed */
+}
+
+.member {
+    display: flex;
+    flex-direction: column; /* Stack photo and text vertically */
+    align-items: center;
+    margin: 20px; /* Horizontal spacing between members */
+    text-align: center;
+}
+
+.member-photo {
+    height: 180px; /* Uniform height */
+    width: 180px; /* Uniform width */
+    border-radius: 50%; /* Circular photos */
+    border: 10px solid #f09494; /* Border for photos */
+    object-fit: cover; /* Cover the circle */
+    margin-bottom: 30px; /* Space between photo and name */
+   
+}
+
+.member p {
+    font-size: 1em; /* Font size for names */
+    margin-top: 20px; /* Space between photo and text */
+}
+
+/* New color divider styles */
+.color-divider {
+    height: 120px; /* Height of the color divider */
+    width: 300%; /* Full width */
+    display: flex; /* Use flexbox to arrange colors */
+    flex-direction: column; /* Stack colors vertically */
+   
+    margin: -20px; /* Adjust margin to overlap slightly with the member section */
+}
+
+.color-top {
+    flex: 1; /* Take up half the height */
+    background-color: #f09494; /* Top color (red) */
+}
+
+.color-bottom {
+    flex: 1; /* Take up half the height */
+    background-color: #f8c4c4; /* Bottom color (light blue) */
+}
+
+.color-block {
+    background-color: #f8c4c4; /* Change to your desired color */
+    height: 100px; /* Height of the footer */
+    width: 200%; /* Full width */
+    position: relative; /* Change to relative for normal flow */
+    margin-top: -60px; /* Move up by 20px */
+    left: 0; /* Align to the left */
+    text-align: center; /* Center text if any */
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
