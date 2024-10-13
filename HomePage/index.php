@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <?php include 'components/navbar.php'; ?>
+    <?php include '../components/navbar.php'; ?>
     <h1 class="title"><?php echo "JAVASWING"; ?></h1>
     <p class="description">
         <?php echo "This website is for compliance in Intermediate Web Programming"; ?>
@@ -22,13 +22,13 @@
         </section>
 
         <div class="image-section">
-            <img src="images/java-swing-schriftzug.png" alt="JavaSwing Logo">
+            <img src="../images/java-swing-schriftzug.png" alt="JavaSwing Logo">
         </div>
     </div>
 
     <div class="container2">
         <div class="image-section">
-            <img src="images/JFC.gif" alt="JFC">
+            <img src="../images/JFC.gif" alt="JFC">
         </div>
 
         <section class="text-section">
@@ -43,13 +43,13 @@
         </section>
 
         <div class="image-section1">
-            <img src="images/swinghierarchy-removebg-preview.png" alt="JavaSwing Hierarchy">
+            <img src="../images/swinghierarchy-removebg-preview.png" alt="JavaSwing Hierarchy">
         </div>
     </div>
 
     <div class="container2">
         <div class="image-section2">
-            <img src="images/Commonly_used_Methods_of_Component_class-removebg-preview.png" alt="methods">
+            <img src="../images/Commonly_used_Methods_of_Component_class-removebg-preview.png" alt="methods">
         </div>
 
         <section class="text-section">
@@ -173,19 +173,19 @@ public class JavaAWT extends JFrame implements ActionListener {
         <div class="imagecontainer">
             <div class="samplecodeimages">
                 <div class="caption"><?php echo "Output 1"; ?></div>
-                <img src="images/ss4.png" alt="Output 1">
+                <img src="../images/ss4.png" alt="Output 1">
             </div>
             <div class="samplecodeimages">
                 <div class="caption"><?php echo "Output 2"; ?></div>
-                <img src="images/ss3.png" alt="Output 2">
+                <img src="../images/ss3.png" alt="Output 2">
             </div>
             <div class="samplecodeimages">
                 <div class="caption"><?php echo "Output 3"; ?></div>
-                <img src="images/ss1.png" alt="Output 3">  
+                <img src="../images/ss1.png" alt="Output 3">  
             </div>
             <div class="samplecodeimages">
                 <div class="caption"><?php echo "Output 4"; ?></div>
-                <img src="images/ss2.png" alt="Output 4">
+                <img src="../images/ss2.png" alt="Output 4">
             </div>
         </div>
     </body>

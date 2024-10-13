@@ -15,15 +15,25 @@
             background-color: #e99292;
             height: 45px;
             display: flex;
-            justify-content: flex-end; 
-            align-items: center; 
-            padding: 0 20px; 
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        nav .leftside {
+            display: flex;
+            align-items: center;
+        }
+
+        nav .rightside {
+            display: flex;
+            align-items: center;
         }
 
         nav p {
-            margin: 0; 
-            margin-right: 10px; 
-            font-size: 18px; 
+            margin: 0;
+            margin-right: 10px;
+            font-size: 18px;
             font-weight: bold;
         }
 
@@ -35,10 +45,17 @@
 
 <body>
     <nav>
-        <p>More About Us:</p>
-        <a href="/JavaSwingWebsite/MemberPages">
-            <img src="Images/R.png" alt="logo">
-        </a>
+        <div class="leftside">
+            <a href="/JavaSwingWebsite/HomePage">
+                <img src="../Images/home.png" alt="home logo">
+            </a>
+        </div>
+        <div class="rightside">
+            <p>More About Us:</p>
+            <a href="/JavaSwingWebsite/MemberPages">
+                <img src="../Images/user.png" alt="user logo">
+            </a>
+        </div>
     </nav>
 </body>
 
