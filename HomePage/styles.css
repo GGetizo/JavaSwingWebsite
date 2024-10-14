@@ -5,6 +5,22 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.btn{
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    margin: 20px;
+    height: 50px;
+    width: 200px;
+}
+
+.btnclass{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+}
+
 .title{
     font-size: 5rem;
     display: flex;
@@ -24,9 +40,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 60px;
     margin: 0 auto;
-    background-color: #f6c7c4;
+    background-color: #b8b9b6;
 }
 
 .text-section {
@@ -48,7 +64,7 @@ body {
 
 .image-section {
     width: 40%;
-    background-color: #f8a8a8;
+    background-color: #383837;
     padding: 40px;
     border-radius: 40px;
     display: flex;
@@ -65,14 +81,31 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 60px;
     margin: 0 auto;
-    background-color: #fdf0f0;
+    background-color: #383837;
+}
+
+.text-section1 {
+    width: 50%;
+}
+
+.text-section1 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.text-section1 p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: white;
 }
 
 .image-section1 {
     width: 40%;
-    background-color: #f8a8a8;
+    background-color: white;
     padding: 40px;
     border-radius: 40px;
     display: flex;
@@ -87,7 +120,7 @@ body {
 
 .image-section2 {
     width: 40%;
-    background-color: #d17171;
+    background-color: #5f5f60;
     padding: 40px;
     border-radius: 40px;
     display: flex;
@@ -95,9 +128,41 @@ body {
     align-items: center;
 }
 
+
 .image-section2 img {
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
+}
+
+
+.image-section3 {
+    width: 40%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section3 img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.image-section4 {
+    width: 40%;
+    background-color: #5f5f60;
+    padding: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section4 img {
+    width: 100%;
+    max-width: 700px;
 }
 
 .backgroundsamplecode{
@@ -112,6 +177,7 @@ body {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
+    padding-top:50px;
 }
 
 .sample-code {

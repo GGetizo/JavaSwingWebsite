@@ -1,18 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffe4dc; /* Background color for the page */
+    background-color: #ffe4dc;
     color: #333;
     margin: 0;
     padding: 0;
-        transform: scale(1.5); /* Scale up to 150% */
-        transform-origin: top left; /* Ensure scaling starts from the top left corner */
-        width: 66.67%; /* Adjust width to maintain layout */
-        overflow-x: hidden; /* Prevent horizontal scrolling */
+        transform: scale(1.5); 
+        transform-origin: top left; 
+        width: 66.67%; 
+        overflow-x: hidden; 
     
 }
 
 .header {
-    background-color: #f09494; /* Header color */
+    background-color: #f09494; 
     padding: 20px;
     text-align: center;
 }
@@ -27,70 +27,70 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    margin-bottom: 60px; /* Add space for footer */
+    margin-bottom: 60px; 
 }
 
 .member-row {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px; /* Space between rows */
+    margin-bottom: 40px;
 }
 
 .member-row.second {
-    margin-top: 60px; /* Adjust the margin as needed */
+    margin-top: 60px;
 }
 
 .member {
     display: flex;
-    flex-direction: column; /* Stack photo and text vertically */
+    flex-direction: column; 
     align-items: center;
-    margin: 20px; /* Horizontal spacing between members */
+    margin: 20px;
     text-align: center;
 }
 
 .member-photo {
-    height: 180px; /* Uniform height */
-    width: 180px; /* Uniform width */
-    border-radius: 50%; /* Circular photos */
-    border: 10px solid #f09494; /* Border for photos */
-    object-fit: cover; /* Cover the circle */
-    margin-bottom: 30px; /* Space between photo and name */
+    height: 180px; 
+    width: 180px; 
+    border-radius: 50%; 
+    border: 10px solid #f09494; 
+    object-fit: cover;
+    margin-bottom: 30px; 
    
 }
 
 .member p {
-    font-size: 1em; /* Font size for names */
-    margin-top: 20px; /* Space between photo and text */
+    font-size: 1em; 
+    margin-top: 20px; 
 }
 
-/* New color divider styles */
+
 .color-divider {
-    height: 120px; /* Height of the color divider */
-    width: 300%; /* Full width */
-    display: flex; /* Use flexbox to arrange colors */
-    flex-direction: column; /* Stack colors vertically */
+    height: 120px; 
+    width: 300%; 
+    display: flex; 
+    flex-direction: column; 
    
-    margin: -20px; /* Adjust margin to overlap slightly with the member section */
+    margin: -20px;
 }
 
 .color-top {
-    flex: 1; /* Take up half the height */
-    background-color: #f09494; /* Top color (red) */
+    flex: 1; 
+    background-color: #f09494; 
 }
 
 .color-bottom {
-    flex: 1; /* Take up half the height */
-    background-color: #f8c4c4; /* Bottom color (light blue) */
+    flex: 1; 
+    background-color: #f8c4c4; 
 }
 
 .color-block {
-    background-color: #f8c4c4; /* Change to your desired color */
-    height: 100px; /* Height of the footer */
-    width: 200%; /* Full width */
-    position: relative; /* Change to relative for normal flow */
-    margin-top: -60px; /* Move up by 20px */
-    left: 0; /* Align to the left */
-    text-align: center; /* Center text if any */
+    background-color: #f8c4c4; 
+    height: 100px; 
+    width: 200%; 
+    position: relative;
+    margin-top: -60px; 
+    left: 0; 
+    text-align: center;
 }
 
 

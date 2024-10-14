@@ -12,12 +12,14 @@
         }
 
         nav {
-            background-color: #e99292;
+            background-color: #5f5f60;
             height: 45px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 0 20px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
         }
 
         nav .leftside {

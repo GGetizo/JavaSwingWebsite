@@ -10,36 +10,67 @@
 
 <body>
     <?php include '../components/navbar.php'; ?>
+
     <h1 class="title"><?php echo "JAVASWING"; ?></h1>
     <p class="description">
         <?php echo "This website is for compliance in Intermediate Web Programming"; ?>
     </p>
 
-    <div class="container">
-        <section class="text-section">
-            <h1><?php echo "JavaSwing"; ?></h1>
-            <p><?php echo "Java Swing tutorial is a part of Java Foundation Classes (JFC) that is used to create window-based applications. It is built on the top of AWT (Abstract Windowing Toolkit) API and entirely written in java. Unlike AWT, Java Swing provides platform-independent and lightweight components. The javax.swing package provides classes for java swing API such as JButton, JTextField, JTextArea, JRadioButton, JCheckbox, JMenu, JColorChooser etc."; ?></p>
-        </section>
-
-        <div class="image-section">
-            <img src="../images/java-swing-schriftzug.png" alt="JavaSwing Logo">
-        </div>
+    <div class="btnclass">
+        <button class="btn">Know More</button>
     </div>
 
-    <div class="container2">
-        <div class="image-section">
-            <img src="../images/JFC.gif" alt="JFC">
-        </div>
+    <?php
+    $sections = [
+        [
+            "title" => "JavaSwing",
+            "description" => "Java Swing tutorial is a part of Java Foundation Classes (JFC) that is used to create window-based applications. It is built on the top of AWT (Abstract Windowing Toolkit) API and entirely written in java. Unlike AWT, Java Swing provides platform-independent and lightweight components. The javax.swing package provides classes for java swing API such as JButton, JTextField, JTextArea, JRadioButton, JCheckbox, JMenu, JColorChooser etc.",
+        ]
+    ];
+    ?>
 
-        <section class="text-section">
-            <h1><?php echo "What is JFC?"; ?></h1>
-            <p><?php echo "The Java Foundation Classes (JFC) are a set of GUI components which simplify the development of desktop applications."; ?></p>
-        </section>
-    </div>
+    <?php foreach ($sections as $section): ?>
+        <div class="container">
+            <section class="text-section">
+                <h1><?php echo $section['title']; ?></h1>
+                <p><?php echo $section['description']; ?></p>
+            </section>
+
+            <div class="image-section">
+                <img src="../images/java-swing-schriftzug.png" alt="javaswing Logo">
+            </div>
+        </div>
+    <?php endforeach; ?>
+
+    <?php
+    $sections = [
+        [
+            "title" => "What is JFC?",
+            "description" => "Java Swing tutorial is a part of Java Foundation Classes (JFC) that is used to create window-based applications. It is built on the top of AWT (Abstract Windowing Toolkit) API and entirely written in java. 
+        Unlike AWT, Java Swing provides platform-independent and lightweight components. 
+The javax.swing package provides classes for java swing API such as JButton, JTextField, JTextArea, JRadioButton, JCheckbox, JMenu, JColorChooser etc. 
+WHAT IS JFC? 
+The Java Foundation Classes (JFC) are a set of GUI components which simplify the development of desktop applications. ",
+        ]
+    ];
+    ?>
+
+    <?php foreach ($sections as $section): ?>
+        <div class="container2">
+            <div class="image-section2">
+                <img src="../images/JFC.gif" alt="JFC">
+            </div>
+
+            <section class="text-section1">
+                <h1><?php echo $section['title']; ?></h1>
+                <p><?php echo $section['description']; ?></p>
+            </section>
+        </div>
+    <?php endforeach; ?>
 
     <div class="container">
         <section class="text-section">
-            <h1><?php echo "Hierarchy of JavaSwing"; ?></h1>
+            <h1><?php echo "Hierarchy of JavaSwing Classes"; ?></h1>
         </section>
 
         <div class="image-section1">
@@ -47,21 +78,33 @@
         </div>
     </div>
 
+    <?php
+    $sections = [
+        [
+            "title" => "Commonly used Methods of Component class:",
+            "description" => "The methods of Component class are widely used in java swing that are given",
+        ]
+    ];
+    ?>
+
+    <?php foreach ($sections as $section): ?>
     <div class="container2">
-        <div class="image-section2">
+        <div class="image-section4">
             <img src="../images/Commonly_used_Methods_of_Component_class-removebg-preview.png" alt="methods">
         </div>
 
-        <section class="text-section">
-            <h1><?php echo "Commonly used Methods of Component class:"; ?></h1>
-            <p><?php echo "The methods of Component class are widely used in java swing that are given"; ?></p>
+        <section class="text-section1">
+            <h1><?php echo $section['title']; ?></h1>
+            <p><?php echo $section['description']; ?></p>
         </section>
     </div>
+    <?php endforeach; ?>
 
     <div class="backgroundsamplecode">
         <h3><?php echo "Sample Java Swing Code:"; ?></h3>
         <div class="sample-code">
-            <pre><code>package javaawt;
+            <pre><code>
+package javaawt;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -166,28 +209,38 @@ public class JavaAWT extends JFrame implements ActionListener {
     public static void main(String[] args) {
         JavaAWT javaAwt = new JavaAWT();
     }
-}</code></pre>
-            </div>
+}
+            </code></pre>
         </div>
+    </div>
 
-        <div class="imagecontainer">
-            <div class="samplecodeimages">
-                <div class="caption"><?php echo "Output 1"; ?></div>
-                <img src="../images/ss4.png" alt="Output 1">
-            </div>
-            <div class="samplecodeimages">
-                <div class="caption"><?php echo "Output 2"; ?></div>
-                <img src="../images/ss3.png" alt="Output 2">
-            </div>
-            <div class="samplecodeimages">
-                <div class="caption"><?php echo "Output 3"; ?></div>
-                <img src="../images/ss1.png" alt="Output 3">  
-            </div>
-            <div class="samplecodeimages">
-                <div class="caption"><?php echo "Output 4"; ?></div>
-                <img src="../images/ss2.png" alt="Output 4">
-            </div>
+    <div class="imagecontainer">
+        <div class="samplecodeimages">
+            <div class="caption"><?php echo "Output 1"; ?></div>
+            <img src="../images/ss4.png" alt="Output 1">
         </div>
-    </body>
+        <div class="samplecodeimages">
+            <div class="caption"><?php echo "Output 2"; ?></div>
+            <img src="../images/ss3.png" alt="Output 2">
+        </div>
+        <div class="samplecodeimages">
+            <div class="caption"><?php echo "Output 3"; ?></div>
+            <img src="../images/ss1.png" alt="Output 3">
+        </div>
+        <div class="samplecodeimages">
+            <div class="caption"><?php echo "Output 4"; ?></div>
+            <img src="../images/ss2.png" alt="Output 4">
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.btn').addEventListener('click', function() {
+            document.getElementById('container').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+</body>
 
 </html>
