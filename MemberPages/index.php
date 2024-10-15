@@ -65,7 +65,8 @@
             <h2>Group Pic</h2>
             <img src="../Images/462135063_750176873920398_5647875063775455215_n.jpg" alt="Group picture of the team" class="group-pic">
         </div>
-
+        
+        <p>Download Our Documentation:</p>
         <a href="../Images/documentation..docx" download="documentation..docx" class="download-link">Download Documentation</a>
     </div>
 
