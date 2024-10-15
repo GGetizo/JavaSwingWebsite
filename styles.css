@@ -99,3 +99,41 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.group-pic-section {
+    text-align: center; /* Center the group image and heading */
+    margin-bottom: 60px; /* Space between the group pic and the footer */
+}
+
+.group-pic-section h2 {
+    font-size: 2em; /* Adjust heading size for 'Group Pic' */
+    color: #333; /* Adjust color if needed */
+    margin-bottom: 20px; /* Space between heading and the image */
+}
+
+.group-pic {
+    height: auto;
+    width: 50%; /* Adjust the width as needed */
+    border-radius: 15px; /* Rounded corners for the group picture */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow */
+}
+
+.download-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #f09494; /* Matches your theme's color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+    background-color: #f8c4c4; /* Lighter color on hover */
+    color: #000; /* Darker text on hover */
+}
+
+

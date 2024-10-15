@@ -11,51 +11,66 @@
         <h1>Meet the Members</h1>
     </div>
 
-    <a href="/JavaSwingWebsite">link to page 1</a>
+   
+
+    <?php
+    // Array holding the members' details
+    $members = [
+        ["name" => "Gabriel Franco S. Getizo", "role" => "Leader", "photo" => "Gabriel_Franco_S._Getizo.jpg"],
+        ["name" => "Sheera Mae D. Magnaye", "role" => "Member", "photo" => "Sheera_Mae_D._Magnaye.png"],
+        ["name" => "Arvin Joseph M. Geguna", "role" => "Member", "photo" => "Arvin_Joseph_M._Geguna.png"],
+        ["name" => "Kristian Anthony R. Espinase", "role" => "Member", "photo" => "Kristian_Anthony_R_Espinase.jpg"],
+        ["name" => "Jaela Mae B. Tuquib", "role" => "Member", "photo" => "Jaela_Mae_B_Tuquib.jpg"],
+        ["name" => "Kristil Mae P. Obor", "role" => "Member", "photo" => "Kristil_Mae_P._OBOR.jpg"]
+    ];
+    ?>
 
     <div class="member-section">
         <div class="member-row">
-            <div class="member">
-                <img src="Gabriel_Franco_S._Getizo.jpg" alt="Member 1" class="member-photo">
-                <p>Gabriel Franco S. Getizo</p>
-
-                <strong>Leader</strong>
-            </div>
-            <div class="member">
-                <img src="Sheera_Mae_D._Magnaye.png" alt="Member 2" class="member-photo">
-                <p>Sheera Mae D. Magnaye</p>
-                <strong>Member</strong>
-            </div>
-            <div class="member">
-                <img src="Arvin_Joseph_M._Geguna.png" alt="Member 3" class="member-photo">
-                <p>Arvin Joseph M. Geguna</p>
-                <strong>Member</strong>
-            </div>
+            <?php 
+            // Loop through the first 3 members and display them
+            foreach ($members as $index => $member) {
+                if ($index < 3) {
+                    echo '<div class="member">
+                            <img src="' . $member['photo'] . '" alt="Member ' . ($index+1) . '" class="member-photo">
+                            <p>' . $member['name'] . '</p>
+                            <strong>' . $member['role'] . '</strong>
+                          </div>';
+                }
+            }
+            ?>
         </div>
 
         <div class="color-divider">
             <div class="color-top"></div> <!-- Top color -->
             <div class="color-bottom"></div> <!-- Bottom color -->
         </div> <!-- Color divider in the middle -->
-    
 
         <div class="member-row second">
-            <div class="member">
-                <img src="Kristian_Anthony_R_Espinase.jpg" alt="Member 4" class="member-photo">
-                <p>Kristian Anthony R. Espinase</p>
-                <strong>Member</strong>
-            </div>
-            <div class="member">
-                <img src="Jaela_Mae_B_Tuquib.jpg" alt="Member 5" class="member-photo">
-                <p>Jaela Mae B. Tuquib</p>
-                <strong>Member</strong>
-            </div>
-            <div class="member">
-                <img src="Kristil_Mae_P._OBOR.jpg" alt="Member 6" class="member-photo">
-                <p>Kristil Mae P. Obor</p>
-                <strong>Member</strong>
-            </div>
+            <?php 
+            // Loop through the next 3 members and display them
+            foreach ($members as $index => $member) {
+                if ($index >= 3 && $index < 6) {
+                    echo '<div class="member">
+                            <img src="' . $member['photo'] . '" alt="Member ' . ($index+1) . '" class="member-photo">
+                            <p>' . $member['name'] . '</p>
+                            <strong>' . $member['role'] . '</strong>
+                          </div>';
+                }
+            }
+            ?>
         </div>
+
+        <div class="group-pic-section">
+    <h2>Group Pic</h2>
+    <img src="462135063_750176873920398_5647875063775455215_n.jpg" alt="Group Picture" class="group-pic">
+</div>
+
+
+<a href="docs/documentation.docx" download="documentation.docx" class="download-link">Download Documentation</a>
+
+
+
     </div>
 
     <div class="color-block"></div> <!-- Color block at the bottom -->
