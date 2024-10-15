@@ -16,12 +16,12 @@
     <?php
     // Array holding the members' details
     $members = [
-        ["name" => "Gabriel Franco S. Getizo", "role" => "Leader", "photo" => "Gabriel_Franco_S._Getizo.jpg"],
-        ["name" => "Sheera Mae D. Magnaye", "role" => "Member", "photo" => "Sheera_Mae_D._Magnaye.png"],
-        ["name" => "Arvin Joseph M. Geguna", "role" => "Member", "photo" => "Arvin_Joseph_M._Geguna.png"],
-        ["name" => "Kristian Anthony R. Espinase", "role" => "Member", "photo" => "Kristian_Anthony_R_Espinase.jpg"],
-        ["name" => "Jaela Mae B. Tuquib", "role" => "Member", "photo" => "Jaela_Mae_B_Tuquib.jpg"],
-        ["name" => "Kristil Mae P. Obor", "role" => "Member", "photo" => "Kristil_Mae_P._OBOR.jpg"]
+        ["name" => "Gabriel Franco S. Getizo", "role" => "Leader & Coder", "photo" => "Gabriel_Franco_S._Getizo.jpg"],
+        ["name" => "Sheera Mae D. Magnaye", "role" => "Documentation lead", "photo" => "Sheera_Mae_D._Magnaye.png"],
+        ["name" => "Arvin Joseph M. Geguna", "role" => "Coder", "photo" => "Arvin_Joseph_M._Geguna.png"],
+        ["name" => "Kristian Anthony R. Espinase", "role" => "Documentation", "photo" => "Kristian_Anthony_R_Espinase.jpg"],
+        ["name" => "Jaela Mae B. Tuquib", "role" => "Documentation", "photo" => "Jaela_Mae_B_Tuquib.jpg"],
+        ["name" => "Kristil Mae P. Obor", "role" => "Documentation", "photo" => "Kristil_Mae_P._OBOR.jpg"]
     ];
     ?>
 
