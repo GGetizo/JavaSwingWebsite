@@ -56,6 +56,11 @@ h1 {
     border: 10px solid #f09494; 
     object-fit: cover; 
     margin-bottom: 30px; 
+    transition: transform 0.3s ease;
+}
+
+.member-photo:hover {
+    transform: scale(1.1);
 }
 
 .member p {
@@ -100,12 +105,14 @@ html, body {
 .group-pic-section {
     text-align: center; 
     margin-bottom: 60px; 
+    
 }
 
 .group-pic-section h2 {
     font-size: 2em; 
     color: #333; 
     margin-bottom: 20px; 
+    
 }
 
 .group-pic {
@@ -113,6 +120,11 @@ html, body {
     width: 50%; 
     border-radius: 15px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;
+}
+
+.group-pic:hover {
+    transform: scale(1.1);
 }
 
 .download-link {
